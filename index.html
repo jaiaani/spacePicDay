@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today Space Picture</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+            <h1><a onclick="window.location.reload();">Today Space Picture</a> </h1>
+            <img class="icon" src="./imgs/astronomy.png" alt="">
+
+        </div>
+
+        <div class="pesquisa">
+            <input for="btn" type="date" name="spaceDay" id="spaceDay" autocomplete="off">
+
+            <button type="submit" id="btn" value="" onclick="consultaSpace()"> <img src="./imgs/search_black.png" alt=""></button>
+        </div>
+        <a id="about" href="##">Sobre</a>
+
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1">
+                <h3 id="titulo"> </h3>
+                <img id="pic" src="imgs/Eclipseclock.jpg" alt="">
+            </div>
+            <div class="box2">
+                <h4>Explanation</h4>
+                <p id="descrip"></p>
+                <br>
+                <div class="copyright-box">
+                    <p id="copyright">Image Credit & Copyright:   </p><p id="copyName"> </p>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer> <p>Feito por Jaiane Guimarães</p>  <a href="###">Sobre</a> </footer>
+</body>
+
+</html>
