@@ -53,6 +53,8 @@ h1{
 }
 .title :hover{
     cursor: pointer;
+}
+
 .icon{
     margin-left: 5px;
     width: 50px;
